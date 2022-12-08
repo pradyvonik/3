@@ -1,0 +1,5 @@
+services:
+  embassies_main_general.route_subscriber:
+    class: Drupal\embassies_main_general\Routing\RouteSubscriber
+    tags:
+      - { name: event_subscriber }
